@@ -1,9 +1,39 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f4f4f4;
+/* ヘッダーのスタイル */
+header {
+    text-align: center;  /* 画像を中央に配置 */
+    margin-bottom: 20px; /* ヘッダーとメニューの間に余白 */
 }
 
-h1 {
-    color: #333;
+/* 画像のスタイル */
+.header-image {
+    width: 100%; /* 画面いっぱいに画像を表示 */
+    height: auto; /* 画像のアスペクト比を保つ */
+}
+
+/* メニューのスタイル */
+.menu {
+    background-color: #333; /* メニューバーの背景色 */
+    text-align: center; /* メニューを中央に配置 */
+    padding: 10px 0; /* メニューの上下に余白 */
+}
+
+.menu ul {
+    list-style-type: none; /* リストの丸い点を消す */
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline; /* メニュー項目を横並びにする */
+    margin-right: 20px; /* メニュー項目の間にスペース */
+}
+
+.menu ul li a {
+    color: white; /* メニュー項目の文字色 */
+    text-decoration: none; /* 下線を消す */
+    font-size: 18px; /* フォントサイズ */
+}
+
+.menu ul li a:hover {
+    text-decoration: underline; /* ホバー時に下線を表示 */
 }
